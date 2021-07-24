@@ -60,10 +60,8 @@ class Screen:
                 print(char.background + char.foreground + char.value + colorama.Back.RESET + colorama.Fore.RESET,
                       end="")
 
-
-screen = Screen(background=colorama.Back.GREEN, resolution=[50, 200])
-
-# Simple animation (slow) 
+# Simple animation (slow)
+#screen = Screen(background=colorama.Back.GREEN, resolution=[50, 200])
 #offset = 0
 #string_offset = 0
 #for i in range(0, 200):
