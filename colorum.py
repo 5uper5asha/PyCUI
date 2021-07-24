@@ -64,7 +64,7 @@ class Screen:
 #screen = Screen(background=colorama.Back.GREEN, resolution=[50, 200])
 #offset = 0
 #string_offset = 0
-#for i in range(0, 200):
+#for i in range(0, 200 * 50):
  #   if offset >= 200:
   #      offset = 0
    #     string_offset += 1
