@@ -62,18 +62,20 @@ class Screen:
 
 
 screen = Screen(background=colorama.Back.GREEN, resolution=[50, 200])
-offset = 0
-string_offset = 0
-for i in range(0, 200):
-    if offset >= 200:
-        offset = 0
-        string_offset += 1
-        screen.insert_string(" ", colorama.Back.CYAN, string_offset=string_offset, char_offset=offset)
-        screen.print_screen()
-        screen.set_background(colorama.Back.GREEN)
-    else:
-        offset += 1
-        screen.insert_string(" ", colorama.Back.CYAN, string_offset=string_offset, char_offset=offset)
-        screen.print_screen()
-        screen.set_background(colorama.Back.GREEN)
-    os.system("cls")
+
+# Simple animation (slow) 
+#offset = 0
+#string_offset = 0
+#for i in range(0, 200):
+ #   if offset >= 200:
+  #      offset = 0
+   #     string_offset += 1
+    #    screen.insert_string(" ", colorama.Back.CYAN, string_offset=string_offset, char_offset=offset)
+     #   screen.print_screen()
+      #  screen.set_background(colorama.Back.GREEN)
+  #  else:
+   #     offset += 1
+    #    screen.insert_string(" ", colorama.Back.CYAN, string_offset=string_offset, char_offset=offset)
+     #   screen.print_screen()
+      #  screen.set_background(colorama.Back.GREEN)
+   # os.system("cls")
